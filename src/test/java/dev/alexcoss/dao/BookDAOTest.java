@@ -16,7 +16,7 @@ import static org.junit.jupiter.api.Assertions.*;
 
 public class BookDAOTest {
 
-    /*private static final String CREATE_TABLE_SQL = "CREATE TABLE book\n" +
+    private static final String CREATE_TABLE_SQL = "CREATE TABLE book\n" +
         "(\n" +
         "    id        SERIAL PRIMARY KEY,\n" +
         "    person_id INT,\n" +
@@ -110,5 +110,5 @@ public class BookDAOTest {
 
         Book retrievedBook = bookDAO.getItem(1);
         assertNull(retrievedBook);
-    }*/
+    }
 }
