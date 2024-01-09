@@ -78,7 +78,6 @@ public class BooksController {
 
     @DeleteMapping("/{id}")
     public String deleteBook(@PathVariable("id") int id) {
-        System.out.println("aaaaaaaaaa"+id);
         bookDAO.deleteItem(id);
         return "redirect:/books";
     }
